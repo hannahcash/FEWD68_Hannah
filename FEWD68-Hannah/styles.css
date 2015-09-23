@@ -1,0 +1,26 @@
+
+
+h1{ color: black;
+      font-size: 100px;
+      font-family: garamond;
+      font-weight: bold;
+       } 
+
+h2{ color: black;
+      font-size: 19px;
+      font-family: helvetica;
+       }  
+       
+p {   
+	color: gray;
+      font-size: 16px;
+      font-family: Helvetica;
+      line-height: 2;
+      font-weight: lighter;
+      text-align: left;
+      position: relative; padding-right: 650px; /* 650px */
+      }
+
+
+img {position: absolute; right: 0; }
+
