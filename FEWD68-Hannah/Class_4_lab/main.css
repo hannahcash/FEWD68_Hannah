@@ -1,0 +1,56 @@
+
+ 
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ .nav li {
+    float: left;
+  }
+}
+nav#main-navigation { background-color: #033048}
+
+h2 {font-weight: 
+ }
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family:'Open Sans', sans-serif;
+
+     background color: #f0efef
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+
+header {
+
+}
+
+footer {
+
+}
+Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
+Weight: Light, Light Italic, Semibold, Extrabold
