@@ -62,7 +62,7 @@ a {
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
+
 .container {
   width: 980px;
   margin: 0 auto;
@@ -169,7 +169,6 @@ h2 a {
   color: #fff;
   font-size: 24px;
 }
-
 #sidebar h3 {
   font-size: 32px;
   font-weight: 800;
@@ -179,7 +178,7 @@ h2 a {
 #sidebar ul {
   margin-bottom: 40px;
 }
-#sidebar ul li a {
+#sidebar ul li {
   color: #043049;
   font-size: 24px;
 }
@@ -187,10 +186,6 @@ h2 a {
   font-size: 22px;
   line-height: 1.1;
   margin-bottom: 40px;
-}
-#sidebar p a {
-  color: #043049;
-  font-weight: 600;
 }
 
 #bottom-cta {
