@@ -12,43 +12,95 @@ header {
   margin-bottom: 10px;
 }
 
-header nav {
-
+body {
+  background-color: #A0CFEC;
 }
 
-header nav ul {
-  padding: 2px;
-  margin: 2px;
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  right: .25em;
+  top: 0.25em;
+  width: 1em;
+  height: 0.15em;
+  background: black;
+  box-shadow: 
+    0 0.25em 0 0 black,
+    0 0.5em 0 0 black;
+    float:right;
+  
 }
 
-header nav li {
+.container {
+  max-width: 960px;
+  padding: 4%;
+  text-align: center;
+}
+.block {
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
   border: 1px solid black;
-  display: inline-block;
-  width: 20%;
-  height: 50px;
-  margin: 10px;
-}
-
-header nav .lines {
-    height: 50px;
-    border: 1px solid black;
-    margin: 10px 10px 10px auto;
-    width: 15%;
-    padding: 15px;
-    display: none;
-}
-
-header nav .line {
-    border: 1px solid black;
-    margin-bottom: 8px;
-}
 
 }
+.one {
+  float: left;
+  width: 30%;
+  height: 100px;
 
-footer {
-  margin-top: 10px;
-  border: 1px solid blue;
-  padding: 10px 10px 0 10px;
-  font-size: 0;
 }
+.two {
+  float: right;
+  width: 60%;
+  height: 100px;
+}
+.three {
+  float: left;
+  clear: left;
+  width: 30%;
+  height: 100px;
+  margin-right: 2%;
+}
+.four {
+  float: right;
+  width: 67%;
+  height: 100px;
+}
+.seven {
+  float: right;
+  width: 67%;
+  height: 100px;
+}
+.six {
+  float: right;
+  width: 67%;
+  height: 100px;
+}
+.five {
+  float: left;
+  clear: left;
+  width: 30%;
+  height: 100px;
+  margin-right: 2%;
+}
+.eight {
+  float: left;
+  width: 30%;
+  height: 100px;
+  margin-right: 2%;
+}
+/* 678 breakpoint ----------- */
+
+@media only screen and (max-width: 678px) {
+  .block {
+    width: 100% !important;
+    float: none !important;
+  }
+
+}
+
+
+
 
