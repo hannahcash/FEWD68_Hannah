@@ -1,0 +1,109 @@
+
+/*RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ol, ul{list-style:none;} blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+header {
+  color: yellow;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: black;
+}
+
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  right: .25em;
+  top: 0.25em;
+  width: 1em;
+  height: 0.15em;
+  background: black;
+  box-shadow: 
+    0 0.25em 0 0 black,
+    0 0.5em 0 0 black;
+    float:right;
+  
+}
+.nav {ul {
+
+  list-style: none;
+
+}
+
+li {
+
+  display: inline-block;
+  float: left;
+  padding: 10px
+
+}}
+
+
+
+.container {
+  max-width: 960px;
+  padding: 4%;
+  text-align: center;
+}
+.block {
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid black;
+
+}
+.one {
+  float: right;
+  width: 30%;
+  height: 100px;
+
+}
+.two {
+  float: right;
+  width: 60%;
+  height: 100px;
+}
+.three {
+  float: left;
+  clear: left;
+  width: 30%;
+  height: 100px;
+  margin-right: 2%;
+}
+.four {
+  float: right;
+  width: 67%;
+  height: 100px;
+}
+.seven {
+  float: right;
+  width: 67%;
+  height: 100px;
+}
+.six {
+  float: right;
+  width: 67%;
+  height: 100px;
+}
+
+/* 678 breakpoint ----------- */
+
+@media only screen and (max-width: 678px) {
+  .block {
+    width: 100% !important;
+    float: none !important;
+  }
+
+}
