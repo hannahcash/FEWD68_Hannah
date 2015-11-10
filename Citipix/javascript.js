@@ -1,23 +1,33 @@
+
+
+
 $(document).ready(function() {
-  $('#submit-btn').click(function(){
-    event.preventDefault();
-    var city = $('#city-type').val();
-    $('#city-type').val('');
-    city = city.toLowerCase().trim();
-    if(city == 'new york city' || city == 'nyc' || city == 'new york') {
+
+
+var cities = ["nyc","sf","la","atx","syd"];
+for (var i = 0; i < cities.length; i++) 
+  $("#city-type").append('<option>' + cities(i) + '</option>');
+}
+
+  $('#city-type').change(function() {
+   var city = $('city-type').val();
+
+
+   if(city == 'NYC'){
       $('body').attr('class','nyc');
-    }
-    else if (city == 'sf' || city == 'san francisco' || city == 'bay area') {
+
+   else if(city == 'SF'){
       $('body').attr('class','sf');
-    }
-    else if (city == 'austin' || city == 'atx') {
-      $('body').attr('class','austin');
-    }
-    else if (city == 'los angeles' || city == 'la' || city == 'lax') {
+      
+
+    else if(city == 'ATX'){
+      $('body').attr('class','atx');  
+
+    else if(city == 'LA'){
       $('body').attr('class','la');
-    }
-    else if (city == 'sydney' || city == 'syd') {
-      $('body').attr('class','sydney');
-    }
-  });
-});
+
+    else if(city == 'SYD'){
+      $('body').attr('class','syd');
+  }
+
+
