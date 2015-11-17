@@ -1,10 +1,5 @@
 
 $(function () {
-
-
-
-
-
 	$("#weather-form").submit(function (e) {
 		e.preventDefault();
 
@@ -12,7 +7,9 @@ $(function () {
 
 		console.log("The city is " + city);
 
-		var url = "http://api.openweathermap.org/data/2.5/weather?q=<CITYNAME>" ;
+		var url = "api.openweathermap.org/data/2.5/weather?q={city name}"
+
+;
 
 		console.log("The url is " + url);
 
