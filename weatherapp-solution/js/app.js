@@ -11,7 +11,7 @@ $(function () {
 
 		console.log("The city is " + city);
 
-		var url = "http://api.openweathermap.org/data/2.5/forecast/daily?q=" + encodeURIComponent(city) + "&appid=5883cc9577d4824f5e05173f3e1b226b";
+		var url = "http://api.openweathermap.org/data/2.5/forecast/daily?q=" + encodeURIComponent(city) + "&cnt=4&mode=json";
 
 		console.log("The url is " + url);
 /*
@@ -114,4 +114,31 @@ $(function () {
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+	// var url = 'http://api.openweathermap.org/data/2.5/weather?q=London,uk';
+
+	// $.ajax({
+	//    type: 'GET',
+	//     url: url,
+	//     async: false,
+	//     contentType: "application/json",
+	//     dataType: 'jsonp',
+	//     success: function(json) {
+	//        console.log(json);
+	//     },
+	//     error: function(e) {
+	//        console.log(e.message);
+	//     }
+	// });
+
+
+});

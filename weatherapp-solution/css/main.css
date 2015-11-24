@@ -1,13 +1,3 @@
-body {
-    display: inline-block;
-    margin: 30px auto;
-    text-align: center;
-}
-
-div.image {
-   content:url(Taylor.png);
-}​
-
 #forecast {
     width: 300px;
 
@@ -38,5 +28,5 @@ div.image {
 #forecast .day-weather .max-temp {
     position: absolute; top: 0; 
     right: 50px;
-    
+	
 }
