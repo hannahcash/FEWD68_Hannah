@@ -1,0 +1,145 @@
+/*
+Project Name: Dinotracker
+Author: Hannah Cassius
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; 
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0;}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+a {
+  text-decoration: none;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+.container {
+  width: 980px;
+  margin: 50 auto;
+  text-align: center;
+  float: center;
+
+}
+
+.logo {
+  font-size: 100px;
+  font-weight: 500;
+}
+
+
+header {
+  background: white;
+  padding: 55px 0;
+  overflow: hidden;
+}
+header .logo {
+  color: black;
+  float: center;
+  font-weight: bolder;
+  font-family: helvetica;
+  text-align: center;}
+
+#copy
+{
+  color: black;
+  float: center;
+  font-weight: bolder;
+  font-family: helvetica;
+  text-align: center;}
+
+#form {
+  text-align: center;
+  float: center;
+  margin-top: 30px;
+}
+
+#form p{
+  text-align: center;
+  float: center;
+  margin-top: 30px;
+}
+
+#wreakhavoc1 {
+  width: 30%;
+  display: inline-block;
+  vertical-align: left;
+  padding-left: 20px;
+}
+#wreakhavoc2 {
+  width: 30%;
+  display: inline-block;
+  vertical-align: center;
+  padding-left: 20px;
+
+}
+#wreakhavoc3 {
+  width: 30%;
+  display: inline-block;
+  vertical-align: right;
+  padding-left: 20px;
+}
+
+#dropdown {
+   color: black;
+  float: center;
+  font-weight: bolder;
+  font-family: helvetica;
+  text-align: center; 
+}
+#footercopy
+{
+  color: black;
+  float: center;
+  font-weight: bolder;
+  font-family: helvetica;
+  text-align: center;}
+
+footer {
+  background: #121212;
+  padding: 5px 0 5px;
+  text-align: center;
+}
+footer p {
+  font-size: 10px;
+  color: white;
+  font-weight: 200;
+}

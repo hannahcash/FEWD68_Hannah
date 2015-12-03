@@ -1,0 +1,60 @@
+
+    	<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+		<title>Dinotracker</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<title>Dinotracker</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/styles.css">
+
+	</head>
+<div id="container">
+	<header>
+				<h1 class="logo">dinotracker</h1>
+				</header>
+								<section id="copy">Find dinosaurs in your area via dinosaur spottings shared on Instagram.</section>
+
+	 <section id="form">
+	 <form>
+      <div id="nav-tab"></div>
+        			<select class="dropdown" id="list" accesskey="target">
+        			<option value="Select Your City" disabled selected> Select your city</option>
+        			<option value="DinosinNY.html"> New York City </option>
+        			<option value="DinosinLA.html"> Los Angeles </option>
+        			<option value="DinosinCH.html"> Chicago </option>
+					<option value="DinosinDC.html"> Washington D.C. </option>
+					<option value="Dinosallover.html"> See All</option>
+        			</select class>
+        			<input type=button value="Go" onclick="goToNewPage()"/>
+        			</form>
+			</nav>
+<p>
+
+ 	<a href="Dinosallover.html"><img src="images/dinosaurs.jpg"></a>
+</section>
+
+
+
+			<div class="footer">
+			<footer> <p>@2016 Dinotracker. Fossilized in NY.</p></footer>
+
+        <script type="text/javascript" src="js/jquery-min.js"></script>
+        <script type="text/javascript">
+
+
+		function goToNewPage()
+		{
+		    var url = document.getElementById('list').value;
+		    if (url != 'none') {
+		        window.location = url;
+		    };
+		}
+        </script>
+		</div>
+</html>

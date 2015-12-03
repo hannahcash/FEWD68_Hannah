@@ -1,0 +1,72 @@
+
+    	<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+		<title>Dinotracker</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<title>Dinotracker</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/styles.css">
+
+	</head>
+<div id="container">
+	<header>
+				<h1 class="logo"><a href="index.html">dinotracker</a></h1>
+			
+	 <section id="form">
+	 <form>
+      <div id="nav-tab"></div>
+        			<select class="dropdown" id="list" accesskey="target">
+        			<option value="Select Your City" disabled selected> Select your city</option>
+        			<option value="DinosinNY.html"> New York City </option>
+        			<option value="DinosinLA.html"> Los Angeles </option>
+        			<option value="DinosinCH.html"> Chicago </option>
+					<option value="DinosinDC.html"> Washington D.C. </option>
+					<option value="Dinosallover.html"> See All</option>
+        			</select class>
+        			<input type=button value="Go" onclick="goToNewPage()"/>
+        			</form>
+			</nav>
+			<section id="copy">
+				Here are the latest dinosaurs from Los Angeles.
+				</section>
+				<div id="instafeed"></div>
+			<script type="text/javascript" src="js/instafeed/instafeed.min.js"></script>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'dinosaurs',
+        get: 'location',
+        locationId: '491030053',
+        clientId: 'f160f050645346b59b097de2bc824ce6'
+    });
+    feed.run();
+</script>		
+				<a href="Dinosallover.html"><img src="images/dinosaurs.jpg">
+</section>
+<div></div>
+				<section id="footercopy">
+				Dont care? <a href="WreakHavoc.html">WREAK HAVOC!</a>
+				</section>
+
+						
+
+
+ <script type="text/javascript" src="js/jquery-min.js"></script>
+       <script type="text/javascript">
+
+
+		function goToNewPage()
+		{
+		    var url = document.getElementById('list').value;
+		    if (url != 'none') {
+		        window.location = url;
+		    };
+		}
+        </script>
+      		</div>
